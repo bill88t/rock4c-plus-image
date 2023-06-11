@@ -1,0 +1,35 @@
+23:38:51 INFO: Initializing mkimage
+23:38:51 INFO:              Architecture:   aarch64
+23:38:51 INFO:                   Edition:   
+23:38:51 INFO:                   Version:   2023-05-27
+23:38:51 INFO:         Working directory:   /home/panda/BredOS/mkimage/work/
+23:38:51 INFO:    Installation directory:   /home/panda/BredOS/mkimage/work/aarch64
+23:38:51 INFO:                Build date:   2023-05-27
+23:38:51 INFO:          Output directory:   /home/panda/BredOS/mkimage/out/
+23:38:51 INFO:                    Device:   rock5b
+23:38:51 INFO:                Filesystem:   ext4
+23:38:51 INFO:                Image type:   image
+23:38:51 INFO:           Image file name:   BredOS-ARM-rock5b-2023-05-27
+23:38:51 INFO:             Packages File:   /home/panda/BredOS/images/rock5b-image/packages.aarch64
+23:38:51 INFO: Copying files to /home/panda/BredOS/mkimage/work/aarch64
+23:38:51 INFO: Install dir is:/home/panda/BredOS/mkimage/work/aarch64
+23:38:51 INFO: Running pacstrap
+23:43:42 INFO: Pacstrap complete
+23:43:42 INFO: Partitioning rock5b
+23:43:44 INFO: Creating image file BredOS-ARM-rock5b-2023-05-27.img
+23:44:23 INFO: Attaching image file BredOS-ARM-rock5b-2023-05-27.img to loop device /dev/loop0
+23:44:23 INFO: 
++-----------------------------------------------+
+|             /dev/loop0 Size 4970M             |
++-----------+-------+------+-------+------------+
+| Partition | Start | End  |  Size | Filesystem |
++-----------+-------+------+-------+------------+
+|   uboot   |   0%  | 16M  |  16M  |    NONE    |
+|    boot   |  16M  | 150M |  134M |   fat32    |
+|    root   |  150M | 100% | 4820M |    ext4    |
++-----------+-------+------+-------+------------+
+23:44:24 INFO: Partitioned rock5b successfully
+23:44:25 INFO: Copying files to /home/panda/BredOS/mkimage/work/mnt/
+23:46:12 INFO: Unmounting!
+23:46:14 INFO: Compressing BredOS-ARM-rock5b-2023-05-27.img
+23:46:17 ERROR: SIGINT or CTRL-C detected. Exiting gracefully
