@@ -7,6 +7,8 @@ file_permissions=(
   ["/usr/bin/zswap-arm-ctrl"]="0:0:755"
   ["/usr/bin/oemcleanup"]="0:0:755"
   ["/usr/bin/remove-calamares"]="0:0:755"
+  ["/usr/lib"]="0:0:755"
+  ["/usr"]="0:0:755"
   ["/home/bred/"]="1001:1001:750"
 )
 #template dir is passed as an arg converted from a relative path to an absolute path

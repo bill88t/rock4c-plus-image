@@ -1,5 +1,5 @@
-# rock5b-image
+# rock4c-plus-image
 ```
-mkimage.py -w ./work/ -o ./out/ -c ./rock5b-image/
+mkimage.py -w ./work/ -o ./out/ -c ./rock4c-plus-image/
 
 ```
